@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import GalleryNavigation from './components/GalleryNavigation';
 
 function Root() {
   return (
@@ -17,5 +18,4 @@ ReactDOM.render(
     <Root />
   </React.StrictMode>,
   document.getElementById('root')
-
 );
