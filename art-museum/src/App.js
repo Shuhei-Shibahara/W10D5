@@ -1,10 +1,10 @@
 import havardArt from "./data/harvardArt"
 import GalleryNavigation from "./components/GalleryNavigation";
+import harvardArt from "./data/harvardArt";
 
-function App() {
-  console.log('in app')
+function App(prop) {
   return (
-    <GalleryNavigation />
+    <GalleryNavigation  galleries={harvardArt.records}/>
   );
 }
 
